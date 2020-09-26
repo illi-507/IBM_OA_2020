@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   height:100vh;
+}
+ .square{
+     border: 20px solid darkblue;
+     border-top:40px solid darkblue;
+     height:100%;
+     width:33.3%;    
+ }
+@media only screen and (max-width: 640px) {
+  .container {
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   justify-content: center;  
+   width:100vw;
+}
+ .square{
+     border: 20px solid darkblue;
+    
+     height:33.3%;
+     width:100vw;  
+     
+ }
+} 
+</style>
+</head>
+<body>
+<div class ="container">
+<div class="square"></div>
+<div class="square"> Enlarges or shrinks the browser to see the effect~</div>
+<div class="square"></div>
+</div>
+
+</body>
+</html>

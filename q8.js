@@ -1,0 +1,1 @@
+console.log("Get the first <p> element in the document with class='five'");
